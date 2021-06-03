@@ -1,4 +1,4 @@
-# Viper Browser
+# Viper Browser V2 With Tor and ProxyChains
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/faef22a2f30e4f1cbea3b15db777cab3)](https://www.codacy.com/app/LeFroid/Viper-Browser?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LeFroid/Viper-Browser&amp;utm_campaign=Badge_Grade) [![Language grade: C/C++](https://img.shields.io/lgtm/grade/cpp/g/LeFroid/Viper-Browser.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/LeFroid/Viper-Browser/context:cpp) [![Build Status](https://travis-ci.com/LeFroid/Viper-Browser.svg?branch=master)](https://travis-ci.com/LeFroid/Viper-Browser)
 
@@ -32,6 +32,7 @@ Licensed under GPLv3
 The browser can be built using the cmake build system, by either importing the root CMakeLists file into your IDE of choice or performing the following commands from a console:
 
 ```console
+sudo apt install libkf5wallet-dev libsqlite3-dev
 $ git clone https://github.com/LeFroid/Viper-Browser.git viper-browser
 $ mkdir -p viper-browser/build && cd viper-browser/build
 $ cmake ..
