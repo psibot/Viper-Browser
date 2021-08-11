@@ -31,7 +31,9 @@ Licensed under GPLv3
 
 The browser can be built using the cmake build system, by either importing the root CMakeLists file into your IDE of choice or performing the following commands from a console:
 
-```console
+```console 
+sudo apt install qtwebengine5-dev libqt5x11extras5-dev libqt5webchannel5-dev
+sudo apt-get install qtdeclarative5-dev
 sudo apt install libkf5wallet-dev libsqlite3-dev tor* proxychains
 $ git clone https://github.com/LeFroid/Viper-Browser.git viper-browser
 $ mkdir -p viper-browser/build && cd viper-browser/build
